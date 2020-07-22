@@ -1,0 +1,210 @@
+a {
+  text-decoration: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: 70%;
+}
+.container .list li {
+  display: inline-block;
+  margin: 0 auto;
+  width: 17.7%;
+  padding-left: 0px;
+  text-align: center;
+  margin: 12px;
+  position: relative;
+}
+.container .list li:hover .list-inner-overlay {
+  opacity: 1;
+}
+
+.container .list li:hover .list-inner {
+  opacity: 0.5;
+}
+
+.container .list li img {
+  width: 100%;
+}
+.container .list li h3 {
+  background: #f3f3f3;
+  padding: 10px;
+  margin: 0px;
+  margin-block-start: -4px;
+  margin-block-end: 0;
+}
+
+.container .list li .list-inner-overlay {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  left: 10%;
+  transition: 0.45s ease-in-out;
+  opacity: 0;
+}
+
+.container .list li .btn.btn-overlay {
+  background: #7510f7;
+  color: #fff;
+  padding: 10px;
+  border: navajowhite;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container .toolbar {
+  padding: 0 15px;
+  display: block;
+  overflow: hidden;
+  background: #f3f3f3;
+}
+.container .list {
+  margin: 20px 0;
+}
+.container .toolbar .toolbar-inner {
+  float: right;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .meme-editor {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 30px 0;
+  background: #f3f3f3;
+  border-radius: 10px;
+  padding: 0;
+}
+.container .meme-editor .meme-form {
+  padding: 30px;
+}
+.container input {
+  display: inherit;
+  padding: 10px;
+  margin: 15px;
+}
+.container .bottom-links {
+  float: right;
+}
+
+.container .bottom-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 5px;
+}
+.container .bottom-links ul li.page-item.active {
+  background: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+}
+.container .bottom-links ul li.page-item.active a {
+  color: #fff;
+}
+.container .bottom-links ul li.page-item a {
+  color: #333;
+  text-decoration: none;
+  padding: 8px;
+}
+.main {
+  overflow: hidden;
+}
+.header {
+  text-align: center;
+}
+.header .header-section {
+  background-color: #4caf50;
+  margin-top: 0;
+  margin-bottom: 10;
+  color: #fff;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-section .title {
+  padding: 20px;
+}
+.header .header-section .social-links {
+  padding: 10px;
+}
+.footer .footer-section {
+  background-color: #4caf50;
+  margin-bottom: 0;
+  padding: 20px;
+  color: #fff;
+}
+button.btn {
+  background-color: #4caf50;
+  border: navajowhite;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  padding: 15px;
+  cursor: pointer;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.form-group {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  clear: both;
+  width: 100%;
+}
+.meme-image {
+  padding: 30px;
+  background: #f3f3f3;
+  margin-left: 30px;
+}
+
+.form-action {
+  float: right;
+  padding: 15px;
+}
+.form-error {
+  float: left;
+}
+.model-bottom-links {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.model-top {
+  margin-bottom: 20px;
+}
+.model-bottom-link-button {
+  text-align: center;
+}
+.model-content {
+  padding: 31px;
+}
+.pagination {
+  float: right;
+  margin: 0;
+  padding: 15px;
+}
+
+.container .bottom-links {
+  display: block;
+  width: 100%;
+  background: #f3f3f3;
+  overflow: hidden;
+}
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
