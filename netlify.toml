@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish="memes-generator/build"
+  base = "memes-generator
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200"
