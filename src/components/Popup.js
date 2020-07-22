@@ -22,10 +22,9 @@ const Popup = ({ popup, meme, setPopup }) => {
     >
       <div className="model-content">
         <div className="model-top">
-          <img src={url} height={300} width={300} />
+          <img src={url} height={300} width={300} alt={url} />
         </div>
         <div className="model-bottom-links">
-          {/* <input className="url-link" value={url} /> */}
           <SocialIcon
             url={
               "https://mail.google.com/mail/u/0/?view=cm&fs=1&to&su=" +

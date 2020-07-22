@@ -208,3 +208,10 @@ button.btn {
   text-align: center;
   margin-top: 20px;
 }
+.page-item .page-link {
+  background: none;
+  border: none;
+}
+.page-item.active .page-link {
+  color: #fff;
+}

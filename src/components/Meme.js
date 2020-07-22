@@ -15,7 +15,7 @@ const Meme = ({
   return (
     <div className="meme-editor">
       <div className="meme-image">
-        <img src={url} height={300} width={300} />
+        <img src={url} height={300} width={300} alt={url} />
       </div>
       <div className="meme-form">
         <div className="form-group">

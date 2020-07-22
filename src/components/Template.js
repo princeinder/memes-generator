@@ -4,7 +4,7 @@ const Template = (props) => {
   return (
     <li>
       <div className="list-inner">
-        <img height={200} width={200} src={url} />
+        <img height={200} width={200} src={url} alt={url} />
         <h3>{name}</h3>
       </div>
       <div className="list-inner-overlay">

@@ -7,7 +7,6 @@ const Pagination = ({
   paginate,
 }) => {
   const pageNumbers = [];
-  console.log(currentPage);
   for (let i = 1; i <= Math.ceil(totalTemplates / templatesPerPage); i++) {
     pageNumbers.push(i);
   }
@@ -18,15 +17,13 @@ const Pagination = ({
         {pageNumbers.map((number) => (
           <li
             key={number}
-            className={currentPage == number ? "page-item active" : "page-item"}
+            className={
+              currentPage === number ? "page-item active" : "page-item"
+            }
           >
-            <a
-              onClick={() => paginate(number)}
-              href="javascript:void(0);"
-              className="page-link"
-            >
+            <button onClick={() => paginate(number)} className="page-link">
               {number}
-            </a>
+            </button>
           </li>
         ))}
       </ul>
