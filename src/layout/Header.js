@@ -5,7 +5,7 @@ const Header = () => {
     <div className="header">
       <div className="container">
         <div className="header-section">
-          <div className="title">Welcome to memes generator</div>
+          <div className="title">Memes Generator</div>
           <div className="social-links">
             Explore More
             <SocialIcon
