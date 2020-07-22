@@ -211,6 +211,10 @@ button.btn {
 .page-item .page-link {
   background: none;
   border: none;
+  cursor: pointer;
+}
+.page-item .page-link:focus {
+  outline: none;
 }
 .page-item.active .page-link {
   color: #fff;
