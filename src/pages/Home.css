@@ -8,13 +8,12 @@ a {
   width: 70%;
 }
 .container .list li {
-  display: inline-block;
-  margin: 0 auto;
-  width: 17.7%;
-  padding-left: 0px;
-  text-align: center;
-  margin: 12px;
-  position: relative;
+    display: inline-block;
+    width: 18%;
+    padding-left: 0;
+    text-align: center;
+    margin: 9px;
+    position: relative;
 }
 .container .list li:hover .list-inner-overlay {
   opacity: 1;
